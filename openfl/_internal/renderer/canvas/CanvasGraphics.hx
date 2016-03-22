@@ -1240,6 +1240,9 @@ class CanvasGraphics {
 									}
 									
 									context.imageSmoothingEnabled = c.smooth;
+									untyped context.mozImageSmoothingEnabled = c.smooth;
+									untyped context.webkitImageSmoothingEnabled = c.smooth;
+									untyped context.msImageSmoothingEnabled = c.smooth;
 									
 									context.drawImage (surface, rect.x, rect.y, rect.width, rect.height, -center.x * scale, -center.y * scale, rect.width * scale, rect.height * scale);
 									context.restore ();

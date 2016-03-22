@@ -45,7 +45,7 @@ class CanvasBitmap {
 			if (!bitmap.smoothing) {
 				
 				untyped (context).mozImageSmoothingEnabled = false;
-				//untyped (context).webkitImageSmoothingEnabled = false;
+				untyped (context).webkitImageSmoothingEnabled = false;
 				untyped (context).msImageSmoothingEnabled = false;
 				untyped (context).imageSmoothingEnabled = false;
 				
@@ -64,7 +64,7 @@ class CanvasBitmap {
 			if (!bitmap.smoothing) {
 				
 				untyped (context).mozImageSmoothingEnabled = true;
-				//untyped (context).webkitImageSmoothingEnabled = true;
+				untyped (context).webkitImageSmoothingEnabled = true;
 				untyped (context).msImageSmoothingEnabled = true;
 				untyped (context).imageSmoothingEnabled = true;
 				

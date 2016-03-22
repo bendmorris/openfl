@@ -172,14 +172,14 @@ class CanvasTextField {
 					if (textEngine.antiAliasType != ADVANCED || textEngine.gridFitType != PIXEL) {
 						
 						untyped (graphics.__context).mozImageSmoothingEnabled = true;
-						//untyped (graphics.__context).webkitImageSmoothingEnabled = true;
+						untyped (graphics.__context).webkitImageSmoothingEnabled = true;
 						untyped (graphics.__context).msImageSmoothingEnabled = true;
 						untyped (graphics.__context).imageSmoothingEnabled = true;
 						
 					} else {
 						
 						untyped (graphics.__context).mozImageSmoothingEnabled = false;
-						//untyped (graphics.__context).webkitImageSmoothingEnabled = false;
+						untyped (graphics.__context).webkitImageSmoothingEnabled = false;
 						untyped (graphics.__context).msImageSmoothingEnabled = false;
 						untyped (graphics.__context).imageSmoothingEnabled = false;
 						

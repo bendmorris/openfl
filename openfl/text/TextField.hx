@@ -1318,7 +1318,7 @@ class TextField extends InteractiveObject {
 			if (smoothingEnabled) {
 				
 				untyped (renderSession.context).mozImageSmoothingEnabled = false;
-				//untyped (renderSession.context).webkitImageSmoothingEnabled = false;
+				untyped (renderSession.context).webkitImageSmoothingEnabled = false;
 				untyped (renderSession.context).msImageSmoothingEnabled = false;
 				untyped (renderSession.context).imageSmoothingEnabled = false;
 				
@@ -1329,7 +1329,7 @@ class TextField extends InteractiveObject {
 			if (smoothingEnabled) {
 				
 				untyped (renderSession.context).mozImageSmoothingEnabled = true;
-				//untyped (renderSession.context).webkitImageSmoothingEnabled = true;
+				untyped (renderSession.context).webkitImageSmoothingEnabled = true;
 				untyped (renderSession.context).msImageSmoothingEnabled = true;
 				untyped (renderSession.context).imageSmoothingEnabled = true;
 				
